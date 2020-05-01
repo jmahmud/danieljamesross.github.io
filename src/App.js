@@ -1,25 +1,27 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import MainSection from './MainSection';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+          <div className="app-content section">
+              <h5>djr</h5>
+              <MainSection />
+	      
+          </div>
+	  
+          <p className="github">
+	      Adapted from <br />
+	      <a href="https://github.com/atorov/react-hooks-p5js">
+                  react-hooks-p5js 
+              </a>
+          </p>
+	  <p className="github">
+	      Thank you atorov!
+	  </p>
+      </div>
   );
 }
 

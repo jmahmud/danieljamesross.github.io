@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+h5 {
+    margin: 0;
+    padding: 0;
+    
+    font-size: 16px;
+    text-align: center;
+}
+
+#app-root {
+    
+}
+html {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: rgb(10,25,48);
+    color: rgba(255,255,255,0.6);
+}
+
+.app-content {
+    max-width: 1024px;
+    
+}
+
+.github {
+    text-align: center;
+    font-size: 8px
+}
+
+a {
+    color: rgba(234,176,26,0.6);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(234,176,26,1);
+    text-decoration: none;
+}
+
+.section {
+    margin: auto auto;
+    padding: 0px;
+    border-radius: 0px;
+    vertical-align: middle;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+
+.slider {
+    width: 100%;
+}
+
+.inputs-wrapper {
+    text-align: center;
+}
+
+
+
