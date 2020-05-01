@@ -12,7 +12,6 @@ export default function (s) {
     let numLines = 11
     let sW = 4
     
-    
     s.preload = () => {
         s.soundFormats('mp3', 'ogg')
         s.mySound = s.loadSound(s.audioFile)

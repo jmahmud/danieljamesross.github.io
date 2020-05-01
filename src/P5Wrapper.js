@@ -3,11 +3,9 @@ import PropTypes from 'prop-types'
 
 import { generate } from 'shortid'
 
-
-import p5 from 'p5'
-import 'p5/lib/addons/p5.sound'
+/* import p5 from 'p5'
+ * import 'p5/lib/addons/p5.sound' */
 /* import * as p5 from 'p5/lib/addons/p5.sound'; */
-
 
 export default function (id = generate()) {
     let canvas = null
